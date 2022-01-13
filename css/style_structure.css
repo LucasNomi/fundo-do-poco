@@ -7,3 +7,15 @@ img {
     border-radius: 100px;
 }
 
+form input{
+    position: relative;
+    bottom: 15px;
+    width: 12em;
+    height: 1.5em;
+}
+
+.div_login_form h1{
+    position: relative;
+    left: 1.7em;
+    text-transform: uppercase;
+}
