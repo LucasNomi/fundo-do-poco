@@ -7,24 +7,23 @@ img {
     border-radius: 100px;
 }
 
-#password_input{
+.div_img_profilepic{
     position: relative;
-    bottom: 15px;
-    width: 12em;
-    height: 1.5em;
-    border-radius: 0px;
+}
+
+.div_login_form{
+    position: relative;
+}
+
+#password_input{
+    position: absolute;
 }
 
 .div_login_form h1{
-    position: relative;
-    left: 1.7em;
+    position: absolute;
     text-transform: uppercase;
 }
 
 #button_login{
-position: relative;
-bottom: 15px;
-right: 0.4em;
-height: 1.9em;
-border-radius: 0px;
+position: absolute;
 }
