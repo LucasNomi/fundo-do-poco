@@ -17,7 +17,7 @@ input[type=password]{
     margin: 5px 0px 0px 0px;
 }
 
-button{
+input[type=button]{
     position: relative;
     height: 37px;
     width: 30px;
