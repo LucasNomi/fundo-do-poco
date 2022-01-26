@@ -25,6 +25,21 @@ input[type=button]{
     transform: translateX(-4px);
 }
 
+input[type=button]#btn_forgotpassword{
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    text-decoration: underline;
+    color: #6DF24B;
+    border: none;
+    background-color: transparent;
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+}
+
 label{
     display: block;
     font-size: 32pt;
