@@ -11,6 +11,29 @@ form{
     transform: translateY(50%);
 }
 
+div#div_memorygame{
+    position: absolute;
+    width: 500px;
+    transform: translateY(-371px);
+    background-color: red;
+}
+
+#div_memorygame div{
+    display: inline-block;
+}
+
+#div_memorygame .select:hover{
+    cursor: pointer;
+}
+
+.wrapper-upper{
+    display: block !important;
+}
+
+.wrapper-lower{
+    display: block !important;
+}
+
 input[type=password]{
     width: 40%;
     height: 30px;
