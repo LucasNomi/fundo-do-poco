@@ -12,26 +12,23 @@ form{
 }
 
 div#div_memorygame{
-    position: absolute;
-    width: 500px;
-    transform: translateY(-371px);
-    background-color: red;
+    display: flex;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#div_memorygame div{
-    display: inline-block;
+div.break{
+    flex-basis: 100%;
+    height: 0px;
 }
 
 #div_memorygame .select:hover{
     cursor: pointer;
 }
 
-.wrapper-upper{
-    display: block !important;
-}
-
-.wrapper-lower{
-    display: block !important;
+#div_memorygame img{
+    margin: 10px;
 }
 
 input[type=password]{
@@ -69,14 +66,18 @@ label{
     margin: 10px 0px 0px 0px;
 }
 
-div.div_form_login{
+div#div_form_login{
     text-align: center;
 }
 
-div.div_form_profilepic{
+div#div_form_profilepic{
     text-align: center;
 }
 
 img.profile_pic{
     width: 200px;
+}
+
+img.pic{
+    width: 100px;
 }
