@@ -14,21 +14,21 @@ GRIDS LAYOUTS
     text-align: center;
 }
 
-#jogo-velha{
+#memory-game{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: solid black 1px;
     display: none;
 }
 
-#jogo-velha .wrapper-upper{
+#memory-game .wrapper-upper{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
 
-#jogo-velha .wrapper-lower{
+#memory-game .wrapper-lower{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 4;
