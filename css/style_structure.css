@@ -14,6 +14,22 @@ GRIDS LAYOUTS
     text-align: center;
 }
 
+#jogo-velha{
+    border: solid black 1px;
+    background-color: black;
+    display: none;
+}
+
+.wrapper-upper{
+    display: grid;
+    grid-template-columns:110px 110px 110px;
+}
+
+.wrapper-lower{
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+}
+
 /*
 OBJETOS
 */
@@ -42,6 +58,10 @@ input[type=button]{
     border: none;
     margin: auto;
     text-decoration: underline rgb(162, 255, 162);
+}
+
+.card{
+    margin: 5px;
 }
 
 /*
