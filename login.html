@@ -15,22 +15,21 @@
 <body>
 
     <div class="grid-container">
-        
+        <form>
+            <div id="form-profilepic">
+                <img src="img/no-profile-picture-icon.png" alt="PROFILE PIC MISSING" class="profile_pic">
+            </div>
+    
+            <div id="form-login">
+                <label for="input-login">USER-PC</label>
+                <input type="password" name="input_login" id="input-login" placeholder="Password">
+    
+                <input type="button" onclick="checkinput()" value=">">
+                <input type="button" onclick="showmemorygame()" value="Forgot my password" id="btn_forgotpassword">
+            </div>
+        </form>
     </div>
 
-    <form>
-        <div id="form-profilepic">
-            <img src="img/no-profile-picture-icon.png" alt="PROFILE PIC MISSING" class="profile_pic">
-        </div>
-
-        <div id="form-login">
-            <label for="input-login">USER-PC</label>
-            <input type="password" name="input_login" id="input-login" placeholder="Password">
-
-            <input type="button" onclick="checkinput()" value=">">
-            <input type="button" onclick="showmemorygame()" value="Forgot my password" id="btn_forgotpassword">
-        </div>
-    </form>
 
     <script src="js/login-script.js"></script>
     <script src="js/forgot-password.js"></script>
