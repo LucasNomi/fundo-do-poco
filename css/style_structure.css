@@ -122,3 +122,7 @@ input[type=password]:focus{
 input[type=button]:hover{
     cursor: pointer;
 }
+
+.card:hover{
+    cursor: pointer;
+}
