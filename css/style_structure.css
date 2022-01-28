@@ -17,11 +17,33 @@ label{
 }
 
 input[type=password]{
-    
+    width: 12em;
+    height: 2em;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+input[type=password]:focus{
+    outline:none;
 }
 
 input[type=button]{
-    
+    width: 1.7em;
+    height: 2.5rem;
+    transform: translateX(-7px);
+}
+
+#btn-forgotpassword{
+    width: max-content !important;
+    display: block;
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    text-decoration: underline rgb(162, 255, 162);
+}
+
+input[type=button]:hover{
+    cursor: pointer;
 }
 
 img.profile_pic{
