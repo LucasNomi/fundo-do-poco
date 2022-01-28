@@ -1,6 +1,6 @@
 function checkinput(){
-    var password = document.getElementById("input_login");
+    var password = document.getElementById("input-login");
     if(password.value == '1029'){
-        window.location.href='pc.html'
+        window.location.href='pags/pc.html'
     }
 }
