@@ -1,7 +1,28 @@
-.grid-container{
-    display: grid;
+body{
+    background-color:rgb(167, 140, 255);
 }
 
+
+.grid-container{
+    display: grid;
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+label{
+    display: block;
+    font-size: 2rem;
+}
+
+input[type=password]{
+    
+}
+
+input[type=button]{
+    
+}
 
 img.profile_pic{
     width: 200px;
