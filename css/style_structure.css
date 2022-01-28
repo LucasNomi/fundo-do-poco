@@ -15,19 +15,23 @@ GRIDS LAYOUTS
 }
 
 #jogo-velha{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     border: solid black 1px;
-    background-color: black;
     display: none;
 }
 
-.wrapper-upper{
+#jogo-velha .wrapper-upper{
     display: grid;
-    grid-template-columns:110px 110px 110px;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
-.wrapper-lower{
+
+#jogo-velha .wrapper-lower{
     display: grid;
-    grid-template-columns: 110px 110px 110px;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 /*
@@ -58,6 +62,36 @@ input[type=button]{
     border: none;
     margin: auto;
     text-decoration: underline rgb(162, 255, 162);
+}
+
+.upper-1{
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+
+.upper-2{
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+.upper-3{
+    grid-column-start: 3;
+    grid-column-end:4;
+}
+
+.lower-1{
+    grid-column-start: 1;
+    grid-column-end:2;
+}
+
+.lower-2{
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+.lower-3{
+    grid-column-start: 3;
+    grid-column-end:4;
 }
 
 .card{
