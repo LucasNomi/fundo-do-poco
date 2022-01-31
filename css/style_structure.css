@@ -1,4 +1,8 @@
 body{
+    display: grid;
+    height: 80vh;
+    justify-content: center;
+    align-content: center;
     background-color:rgb(167, 140, 255);
 }
 
@@ -6,21 +10,12 @@ body{
 GRIDS LAYOUTS
 */
 
-.grid-container{
-    display: grid;
-    height: 80vh;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-}
-
 #memory-game{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: solid black 1px;
     display: none;
 }
-
 
 /*
 OBJETOS
