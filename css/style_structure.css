@@ -21,18 +21,6 @@ GRIDS LAYOUTS
     display: none;
 }
 
-#memory-game .wrapper-upper{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-
-#memory-game .wrapper-lower{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
 
 /*
 OBJETOS
